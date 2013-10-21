@@ -10,6 +10,7 @@ namespace TestConsole
     {
         static void Main(string[] args)
         {
+            var number = new Random((int)DateTime.Now.Ticks).Next(0, 500);
         }
     }
 }
